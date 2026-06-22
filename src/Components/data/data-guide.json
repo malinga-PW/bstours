@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "thumb": "team_img_1.jpg",
+        "image": "team_1_1.jpg",
+        "bannerImg": "team_1_1.jpg",
+        "title": "Priyantha Silva"
+    },
+    {
+        "id": 2,
+        "thumb": "team_img_2.jpg",
+        "image": "team_1_2.jpg",
+        "bannerImg": "team_1_2.jpg",
+        "title": "Nimal Perera"
+    },
+    {
+        "id": 3,
+        "thumb": "team_img_3.jpg",
+        "image": "team_1_3.jpg",
+        "bannerImg": "team_1_3.jpg",
+        "title": "Saman Kumara"
+    },
+    {
+        "id": 4,
+        "thumb": "team_img_4.jpg",
+        "image": "team_1_4.jpg",
+        "bannerImg": "team_1_4.jpg",
+        "title": "Ruwan Jayawardena"
+    }
+]

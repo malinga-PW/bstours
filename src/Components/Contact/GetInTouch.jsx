@@ -1,0 +1,60 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+
+function GetInTouch() {
+    return (
+        <div className="space">
+            <div className="container">
+                <div className="title-area text-center">
+                    <span className="sub-title">Get In Touch</span>
+                    <h2 className="sec-title">Our Contact Information</h2>
+                </div>
+                <div className="row gy-4 justify-content-center">
+                    <div className="col-xl-4 col-lg-6">
+                        <div className="about-contact-grid style2">
+                            <div className="about-contact-icon">
+                                <img src="/assets/img/icon/location-dot2.svg" alt="" />
+                            </div>
+                            <div className="about-contact-details">
+                                <h6 className="box-title">Our Address</h6>
+                                <p className="about-contact-details-text">
+                                    No 16/A Madiwela Rd
+                                </p>
+                                <p className="about-contact-details-text">Nugegoda, Sri Lanka</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-xl-4 col-lg-6">
+                        <div className="about-contact-grid">
+                            <div className="about-contact-icon">
+                                <img src="/assets/img/icon/call.svg" alt="" />
+                            </div>
+                            <div className="about-contact-details">
+                                <h6 className="box-title">Phone Number</h6>
+                                <p className="about-contact-details-text">
+                                    <Link to="tel:+94712333322">+94 71 2 33 33 22</Link>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-xl-4 col-lg-6">
+                        <div className="about-contact-grid">
+                            <div className="about-contact-icon">
+                                <img src="/assets/img/icon/mail.svg" alt="" />
+                            </div>
+                            <div className="about-contact-details">
+                                <h6 className="box-title">Email Address</h6>
+                                <p className="about-contact-details-text">
+                                    <Link to="mailto:info@bstours.lk">info@bstours.lk</Link>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    )
+}
+
+export default GetInTouch

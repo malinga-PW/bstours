@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "image": "tour_3_1.jpg",
+        "bannerImg": "destination-details.jpg",
+        "title": "Bodh Gaya",
+        "price": "LKR 350,000"
+    },
+    {
+        "id": 2,
+        "image": "tour_3_2.jpg",
+        "bannerImg": "destination-details.jpg",
+        "title": "Sarnath",
+        "price": "LKR 350,000"
+    },
+    {
+        "id": 3,
+        "image": "tour_3_3.jpg",
+        "bannerImg": "destination-details.jpg",
+        "title": "Kushinagar",
+        "price": "LKR 350,000"
+    },
+    {
+        "id": 4,
+        "image": "tour_3_4.jpg",
+        "bannerImg": "destination-details.jpg",
+        "title": "Lumbini",
+        "price": "LKR 250,000"
+    },
+    {
+        "id": 5,
+        "image": "tour_3_5.jpg",
+        "bannerImg": "destination-details.jpg",
+        "title": "Bangkok",
+        "price": "LKR 200,000"
+    },
+    {
+        "id": 6,
+        "image": "tour_3_6.jpg",
+        "bannerImg": "destination-details.jpg",
+        "title": "Kandy",
+        "price": "LKR 85,000"
+    },
+    {
+        "id": 7,
+        "image": "tour_3_7.jpg",
+        "bannerImg": "destination-details.jpg",
+        "title": "Anuradhapura",
+        "price": "LKR 45,000"
+    },
+    {
+        "id": 8,
+        "image": "tour_3_8.jpg",
+        "bannerImg": "destination-details.jpg",
+        "title": "Sigiriya",
+        "price": "LKR 55,000"
+    },
+    {
+        "id": 9,
+        "image": "tour_3_9.jpg",
+        "bannerImg": "destination-details.jpg",
+        "title": "Colombo",
+        "price": "LKR 25,000"
+    }
+]

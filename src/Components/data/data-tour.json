@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "image": "tour_4_1.jpg",
+        "bannerImg": "tour_4_1.jpg",
+        "title": "India Pilgrimage Tour 13 Nights (Budusuwanda Dambadiwa Vandana)",
+        "price": "LKR 350,000"
+    },
+    {
+        "id": 2,
+        "image": "tour_4_2.jpg",
+        "bannerImg": "tour_4_2.jpg",
+        "title": "Thailand Tour 5 Nights",
+        "price": "LKR 200,000"
+    },
+    {
+        "id": 3,
+        "image": "tour_4_3.jpg",
+        "bannerImg": "tour_4_3.jpg",
+        "title": "Bangkok City Tour Package",
+        "price": "LKR 180,000"
+    },
+    {
+        "id": 4,
+        "image": "tour_4_4.jpg",
+        "bannerImg": "tour_4_4.jpg",
+        "title": "Sri Lanka Cultural Tour 7 Nights",
+        "price": "LKR 85,000"
+    },
+    {
+        "id": 5,
+        "image": "tour_4_5.jpg",
+        "bannerImg": "tour_4_5.jpg",
+        "title": "India Buddhist Circuit Tour",
+        "price": "LKR 280,000"
+    },
+    {
+        "id": 6,
+        "image": "tour_4_6.jpg",
+        "bannerImg": "tour_4_6.jpg",
+        "title": "Thailand & Bangkok Combo 8 Nights",
+        "price": "LKR 320,000"
+    },
+    {
+        "id": 7,
+        "image": "tour_4_7.jpg",
+        "bannerImg": "tour_4_7.jpg",
+        "title": "Nepal Lumbini Pilgrimage Tour",
+        "price": "LKR 250,000"
+    },
+    {
+        "id": 8,
+        "image": "tour_4_8.jpg",
+        "bannerImg": "tour_4_8.jpg",
+        "title": "Dambadiwa Wandana Special Package",
+        "price": "LKR 350,000"
+    }
+]

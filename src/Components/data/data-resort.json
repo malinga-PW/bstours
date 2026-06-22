@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "image": "resort_1_1.jpg",
+        "bannerImg": "resort-details.jpg",
+        "title": "Deluxe Hotel Bodh Gaya",
+        "price": "LKR 15,000/night"
+    },
+    {
+        "id": 2,
+        "image": "resort_1_2.jpg",
+        "bannerImg": "resort-details.jpg",
+        "title": "Bangkok City Hotel",
+        "price": "LKR 12,000/night"
+    },
+    {
+        "id": 3,
+        "image": "resort_1_3.jpg",
+        "bannerImg": "resort-details.jpg",
+        "title": "Kandy Boutique Resort",
+        "price": "LKR 8,000/night"
+    }
+]

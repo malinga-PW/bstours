@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "image": "destination_4_1.jpg",
+        "bannerImg": "destination_4_1.jpg",
+        "title": "Baggage Carry",
+        "item": "All Tours"
+    },
+    {
+        "id": 2,
+        "image": "destination_4_2.jpg",
+        "bannerImg": "destination_4_2.jpg",
+        "title": "Tour Guide",
+        "item": "Sinhala Guide"
+    },
+    {
+        "id": 3,
+        "image": "destination_4_3.jpg",
+        "bannerImg": "destination_4_3.jpg",
+        "title": "Visa Assistance",
+        "item": "Free Support"
+    },
+    {
+        "id": 4,
+        "image": "destination_4_4.jpg",
+        "bannerImg": "destination_4_4.jpg",
+        "title": "Hotel Booking",
+        "item": "All Categories"
+    },
+    {
+        "id": 5,
+        "image": "destination_4_5.jpg",
+        "bannerImg": "destination_4_5.jpg",
+        "title": "Airport Transfer",
+        "item": "Pick & Drop"
+    },
+    {
+        "id": 6,
+        "image": "destination_4_6.jpg",
+        "bannerImg": "destination_4_6.jpg",
+        "title": "Travel Insurance",
+        "item": "Covered"
+    },
+    {
+        "id": 7,
+        "image": "destination_4_7.jpg",
+        "bannerImg": "destination_4_7.jpg",
+        "title": "Flight Booking",
+        "item": "Best Rates"
+    },
+    {
+        "id": 8,
+        "image": "destination_4_8.jpg",
+        "bannerImg": "destination_4_8.jpg",
+        "title": "Meals Included",
+        "item": "Breakfast & Dinner"
+    }
+]
