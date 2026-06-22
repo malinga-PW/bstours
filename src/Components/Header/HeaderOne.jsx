@@ -94,7 +94,7 @@ function HeaderOne() {
                                         </Link>
                                     </div>
                                 </div>
-                                <div className="col-auto me-xl-auto">
+                                <div className="col text-center">
                                     <nav className="main-menu d-none d-xl-inline-block">
                                         <ul>
                                             <li>
