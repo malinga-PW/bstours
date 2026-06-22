@@ -95,22 +95,40 @@
       align-items: center;
     }
     
-    /* Menu Text to White, and Pill shape on hover/active */
+    /* Menu Text to White, normal text with underline on hover */
     .main-menu > ul > li > a {
       color: #ffffff !important;
       background-color: transparent !important;
-      padding: 8px 16px !important;
-      margin: 0 2px !important;
-      border-radius: 50px !important;
+      padding: 10px 15px !important;
       display: inline-block;
       line-height: 1;
       font-weight: 600;
-      transition: all 0.3s ease;
+      position: relative;
+      text-decoration: none;
     }
+    
+    /* Underline effect on hover/active */
+    .main-menu > ul > li > a::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: 0;
+      left: 50%;
+      background-color: var(--theme-color);
+      transition: all 0.3s ease;
+      transform: translateX(-50%);
+    }
+    
+    .main-menu > ul > li > a:hover::after,
+    .main-menu > ul > li > a.active::after {
+      width: 80%;
+    }
+    
     .main-menu > ul > li > a:hover,
     .main-menu > ul > li > a.active {
-      color: #005274 !important;
-      background-color: #ffffff !important;
+      color: var(--theme-color) !important;
+      background-color: transparent !important;
     }
 
     .sticky-wrapper.sticky .menu-area {
