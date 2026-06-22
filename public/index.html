@@ -105,30 +105,18 @@
       font-weight: 600;
       position: relative;
       text-decoration: none;
-    }
-    
-    /* Underline effect on hover/active */
-    .main-menu > ul > li > a::after {
-      content: '';
-      position: absolute;
-      width: 0;
-      height: 2px;
-      bottom: 0;
-      left: 50%;
-      background-color: var(--theme-color);
-      transition: all 0.3s ease;
-      transform: translateX(-50%);
-    }
-    
-    .main-menu > ul > li > a:hover::after,
-    .main-menu > ul > li > a.active::after {
-      width: 80%;
+      /* Background underline animation */
+      background-image: linear-gradient(var(--theme-color), var(--theme-color)) !important;
+      background-size: 0% 2px !important;
+      background-position: center bottom 5px !important;
+      background-repeat: no-repeat !important;
+      transition: background-size 0.3s ease, color 0.3s ease !important;
     }
     
     .main-menu > ul > li > a:hover,
     .main-menu > ul > li > a.active {
+      background-size: 80% 2px !important;
       color: var(--theme-color) !important;
-      background-color: transparent !important;
     }
 
     .sticky-wrapper.sticky .menu-area {
