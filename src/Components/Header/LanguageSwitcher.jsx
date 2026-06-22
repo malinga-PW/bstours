@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
 
 const languages = [
-    { code: 'si', label: 'Sinhala', flag: 'lk', googleCode: '/si/si' },
+    { code: 'si', label: 'සිංහල', flag: 'lk', googleCode: '/si/si' },
     { code: 'en', label: 'English', flag: 'gb', googleCode: '/si/en' },
-    { code: 'ta', label: 'Tamil', flag: 'lk', googleCode: '/si/ta' },
-    { code: 'ja', label: 'Japanese', flag: 'jp', googleCode: '/si/ja' },
-    { code: 'th', label: 'Thai', flag: 'th', googleCode: '/si/th' },
-    { code: 'hi', label: 'Hindi', flag: 'in', googleCode: '/si/hi' },
+    { code: 'ta', label: 'தமிழ்', flag: 'lk', googleCode: '/si/ta' },
+    { code: 'ja', label: '日本語', flag: 'jp', googleCode: '/si/ja' },
+    { code: 'th', label: 'ไทย', flag: 'th', googleCode: '/si/th' },
+    { code: 'hi', label: 'हिन्दी', flag: 'in', googleCode: '/si/hi' },
 ];
 
 export default function LanguageSwitcher() {
@@ -45,7 +45,7 @@ export default function LanguageSwitcher() {
     };
 
     return (
-        <div className="language-switcher" ref={dropdownRef} style={{ position: 'relative', display: 'inline-block' }}>
+        <div className="language-switcher notranslate" ref={dropdownRef} style={{ position: 'relative', display: 'inline-block' }}>
             <button 
                 onClick={() => setIsOpen(!isOpen)}
                 style={{
