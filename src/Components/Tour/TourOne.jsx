@@ -16,10 +16,10 @@ function TourOne() {
         <div className="row">
           <div className="col-lg-6 offset-lg-3">
             <div className="title-area text-center">
-              <span className="sub-title">Best Place For You</span>
-              <h2 className="sec-title">Most Popular Tour Packages</h2>
+              <span className="sub-title">ඔබට ගැලපෙනම ස්ථානය</span>
+              <h2 className="sec-title">වඩාත් ජනප්‍රිය සංචාරක පැකේජ</h2>
               <p className="sec-text">
-                Explore our most-loved pilgrimage and tour packages. From the sacred Buddhist sites of India to the vibrant streets of Bangkok — we have the perfect journey for you.
+                අපගේ ජනප්‍රිය වන්දනා සහ සංචාරක පැකේජ නරඹන්න. ඉන්දියාවේ පූජනීය බෞද්ධ සිද්ධස්ථානවල සිට බැංකොක් නගරයේ විචිත්‍රවත් වීදි දක්වා — ඔබට ගැලපෙන පරිපූර්ණ ගමනක් අප සතුව ඇත.
               </p>
             </div>
           </div>
@@ -59,14 +59,14 @@ function TourOne() {
                     </Link>
                   </div>
                   <h4 className="tour-box_price">
-                    <span className="currency">$980.00</span>/Person
+                    <span className="currency">$980.00</span> / අයෙකුට
                   </h4>
                   <div className="tour-action">
                     <span>
-                      <i className="fa-light fa-clock" />7 Days
+                      <i className="fa-light fa-clock" />දින 7
                     </span>
                     <Link to="/contact" className="th-btn style4 th-icon">
-                      Book Now
+                      වෙන්කරවා ගන්න
                     </Link>
                   </div>
                 </div>
@@ -93,14 +93,14 @@ function TourOne() {
                     </Link>
                   </div>
                   <h4 className="tour-box_price">
-                    <span className="currency">$980.00</span>/Person
+                    <span className="currency">$980.00</span> / අයෙකුට
                   </h4>
                   <div className="tour-action">
                     <span>
-                      <i className="fa-light fa-clock" />7 Days
+                      <i className="fa-light fa-clock" />දින 7
                     </span>
                     <Link to="/contact" className="th-btn style4 th-icon">
-                      Book Now
+                      වෙන්කරවා ගන්න
                     </Link>
                   </div>
                 </div>
@@ -127,14 +127,14 @@ function TourOne() {
                     </Link>
                   </div>
                   <h4 className="tour-box_price">
-                    <span className="currency">$980.00</span>/Person
+                    <span className="currency">$980.00</span> / අයෙකුට
                   </h4>
                   <div className="tour-action">
                     <span>
-                      <i className="fa-light fa-clock" />7 Days
+                      <i className="fa-light fa-clock" />දින 7
                     </span>
                     <Link to="/contact" className="th-btn style4 th-icon">
-                      Book Now
+                      වෙන්කරවා ගන්න
                     </Link>
                   </div>
                 </div>
@@ -161,14 +161,14 @@ function TourOne() {
                     </Link>
                   </div>
                   <h4 className="tour-box_price">
-                    <span className="currency">$980.00</span>/Person
+                    <span className="currency">$980.00</span> / අයෙකුට
                   </h4>
                   <div className="tour-action">
                     <span>
-                      <i className="fa-light fa-clock" />7 Days
+                      <i className="fa-light fa-clock" />දින 7
                     </span>
                     <Link to="/contact" className="th-btn style4 th-icon">
-                      Book Now
+                      වෙන්කරවා ගන්න
                     </Link>
                   </div>
                 </div>
@@ -195,14 +195,14 @@ function TourOne() {
                     </Link>
                   </div>
                   <h4 className="tour-box_price">
-                    <span className="currency">$980.00</span>/Person
+                    <span className="currency">$980.00</span> / අයෙකුට
                   </h4>
                   <div className="tour-action">
                     <span>
-                      <i className="fa-light fa-clock" />7 Days
+                      <i className="fa-light fa-clock" />දින 7
                     </span>
                     <Link to="/contact" className="th-btn style4 th-icon">
-                      Book Now
+                      වෙන්කරවා ගන්න
                     </Link>
                   </div>
                 </div>
@@ -229,14 +229,14 @@ function TourOne() {
                     </Link>
                   </div>
                   <h4 className="tour-box_price">
-                    <span className="currency">$980.00</span>/Person
+                    <span className="currency">$980.00</span> / අයෙකුට
                   </h4>
                   <div className="tour-action">
                     <span>
-                      <i className="fa-light fa-clock" />7 Days
+                      <i className="fa-light fa-clock" />දින 7
                     </span>
                     <Link to="/contact" className="th-btn style4 th-icon">
-                      Book Now
+                      වෙන්කරවා ගන්න
                     </Link>
                   </div>
                 </div>
@@ -263,14 +263,14 @@ function TourOne() {
                     </Link>
                   </div>
                   <h4 className="tour-box_price">
-                    <span className="currency">$980.00</span>/Person
+                    <span className="currency">$980.00</span> / අයෙකුට
                   </h4>
                   <div className="tour-action">
                     <span>
-                      <i className="fa-light fa-clock" />7 Days
+                      <i className="fa-light fa-clock" />දින 7
                     </span>
                     <Link to="/contact" className="th-btn style4 th-icon">
-                      Book Now
+                      වෙන්කරවා ගන්න
                     </Link>
                   </div>
                 </div>
@@ -297,14 +297,14 @@ function TourOne() {
                     </Link>
                   </div>
                   <h4 className="tour-box_price">
-                    <span className="currency">$980.00</span>/Person
+                    <span className="currency">$980.00</span> / අයෙකුට
                   </h4>
                   <div className="tour-action">
                     <span>
-                      <i className="fa-light fa-clock" />7 Days
+                      <i className="fa-light fa-clock" />දින 7
                     </span>
                     <Link to="/contact" className="th-btn style4 th-icon">
-                      Book Now
+                      වෙන්කරවා ගන්න
                     </Link>
                   </div>
                 </div>

@@ -78,14 +78,14 @@ function BannerOne() {
                                         data-ani="slideinup"
                                         data-ani-delay="0.2s"
                                     >
-                                        Buddhist Pilgrimage Tours
+                                        බෞද්ධ වන්දනා චාරිකා
                                     </span>
                                     <h1
                                         className="hero-title"
                                         data-ani="slideinup"
                                         data-ani-delay="0.4s"
                                     >
-                                        Dambadiwa Wandana – India Pilgrimage{" "}
+                                        දඹදිව වන්දනාව - ඉන්දියානු චාරිකාව{" "}
                                     </h1>
                                     <div
                                         className="btn-group"
@@ -93,10 +93,10 @@ function BannerOne() {
                                         data-ani-delay="0.6s"
                                     >
                                         <Link to="/tour" className="th-btn th-icon">
-                                            Explore Tours
+                                            චාරිකා නරඹන්න
                                         </Link>
                                         <Link to="/service" className="th-btn style2 th-icon">
-                                            Our Services
+                                            අපගේ සේවාවන්
                                         </Link>
                                     </div>
                                 </div>
@@ -120,14 +120,14 @@ function BannerOne() {
                                         data-ani="slideinup"
                                         data-ani-delay="0.2s"
                                     >
-                                        Thailand Tour Packages
+                                        තායිලන්ත සංචාරක පැකේජ
                                     </span>
                                     <h1
                                         className="hero-title"
                                         data-ani="slideinup"
                                         data-ani-delay="0.4s"
                                     >
-                                        Explore Bangkok & Beyond{" "}
+                                        බැංකොක් සහ තවත් දේ නරඹන්න{" "}
                                     </h1>
                                     <div
                                         className="btn-group"
@@ -135,10 +135,10 @@ function BannerOne() {
                                         data-ani-delay="0.6s"
                                     >
                                         <Link to="/tour" className="th-btn th-icon">
-                                            Explore Tours
+                                            චාරිකා නරඹන්න
                                         </Link>
                                         <Link to="/service" className="th-btn style2 th-icon">
-                                            Our Services
+                                            අපගේ සේවාවන්
                                         </Link>
                                     </div>
                                 </div>
@@ -162,14 +162,14 @@ function BannerOne() {
                                         data-ani="slideinup"
                                         data-ani-delay="0.2s"
                                     >
-                                        Sri Lanka Travel Expert
+                                        ශ්‍රී ලංකා සංචාරක විශේෂඥ
                                     </span>
                                     <h1
                                         className="hero-title"
                                         data-ani="slideinup"
                                         data-ani-delay="0.4s"
                                     >
-                                        Your Journey Begins With BSTours.lk{" "}
+                                        ඔබගේ ගමන BSTours.lk සමඟ අරඹන්න{" "}
                                     </h1>
                                     <div
                                         className="btn-group"
@@ -177,10 +177,10 @@ function BannerOne() {
                                         data-ani-delay="0.6s"
                                     >
                                         <Link to="/tour" className="th-btn th-icon">
-                                            Explore Tours
+                                            චාරිකා නරඹන්න
                                         </Link>
                                         <Link to="/service" className="th-btn style2 th-icon">
-                                            Our Services
+                                            අපගේ සේවාවන්
                                         </Link>
                                     </div>
                                 </div>

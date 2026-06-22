@@ -25,15 +25,12 @@ function AboutOne() {
                     <div className="col-xl-6">
                         <div className="ps-xl-4 ms-xl-2">
                             <div className="title-area mb-20 pe-xl-5 me-xl-5">
-                                <span className="sub-title style1 ">Welcome to BSTours.lk</span>
+                                <span className="sub-title style1 ">BSTours.lk වෙත සාදරයෙන් පිළිගනිමු</span>
                                 <h2 className="sec-title mb-20 pe-xl-5 me-xl-5 heading">
-                                    Your Trusted Travel Partner for Pilgrimage & Tours
+                                    වන්දනා සහ සංචාර සඳහා ඔබේ විශ්වාසවන්ත සහකරු
                                 </h2>
-                                <p className="sec-text mb-30">
-                                    BSTours.lk is a Sri Lanka-based travel agency specializing in Buddhist pilgrimage tours 
-                                    to India (Dambadiwa), Thailand, Bangkok, and domestic Sri Lanka tours. With over 20 years 
-                                    of experience, we provide comfortable, affordable, and spiritually enriching travel experiences 
-                                    across Asia.
+                                <p className="sec-text mb-30" style={{ lineHeight: '1.8' }}>
+                                    BS Tours යනු "බුදුසුවඳ දඹදිව වන්දනා" (Budusuwanda Dambadiwa Wandanaa) යන තේමාව යටතේ ක්‍රියාත්මක වන, ලංකාවේ ඇති දඹදිව වන්දනා සංචාරක ආයතන (Dambadiwa Tour Travel Agencies) අතරින් විශිෂ්ටතම සහ හොඳම ආයතනයයි. ශ්‍රී ලංකාවේ ප්‍රමුඛතම රූපවාහිනී නාලිකාවක් වන දෙරණ (Derana) නාලිකාව මඟින් විකාශය වන "දෙරණ දඹදිව වරම්" වැඩසටහනේ දඹදිව වන්දනා චාරිකා සඳහා නිල වශයෙන් තෝරාගෙන ඇත්තේ ද BS Tours ආයතනයයි. ඔවුන් මේ වන විට සාර්ථක දඹදිව වන්දනා ගමන් වාර 200කට වඩා වැඩි ප්‍රමාණයක් සංවිධානය කර ඇත. ඉතාමත් සුවපහසුවෙන්, ආරක්ෂිතව මෙන්ම සෞඛ්‍යාරක්ෂිතව දඹදිව පුණ්‍ය භූමිය වැඳපුදා ගැනීමට ශ්‍රී ලංකාවේ ඇති හොඳම සහ විශ්වාසවන්තම ආයතනය වන්නේ BS Tours ආයතනයයි.
                                 </p>
                             </div>
                             <div className="about-item-wrap">

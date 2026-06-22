@@ -12,29 +12,29 @@ function Booking() {
     const [formMessage, setFormMessage] = useState({ text: "", type: "" });
 
     const destinationOptions = [
-        { value: "India (Dambadiwa)", label: "India (Dambadiwa)" },
-        { value: "Thailand", label: "Thailand" },
-        { value: "Bangkok", label: "Bangkok" },
-        { value: "Sri Lanka", label: "Sri Lanka" },
-        { value: "Nepal", label: "Nepal" },
+        { value: "India (Dambadiwa)", label: "ඉන්දියාව (දඹදිව)" },
+        { value: "Thailand", label: "තායිලන්තය" },
+        { value: "Bangkok", label: "බැංකොක්" },
+        { value: "Sri Lanka", label: "ශ්‍රී ලංකාව" },
+        { value: "Nepal", label: "නේපාලය" },
     ];
     const adventureOptions = [
-        { value: "Pilgrimage Tour", label: "Pilgrimage Tour" },
-        { value: "Cultural Tour", label: "Cultural Tour" },
-        { value: "Group Tour", label: "Group Tour" },
-        { value: "Private Tour", label: "Private Tour" },
+        { value: "Pilgrimage Tour", label: "වන්දනා චාරිකා" },
+        { value: "Cultural Tour", label: "සංස්කෘතික චාරිකා" },
+        { value: "Group Tour", label: "කණ්ඩායම් චාරිකා" },
+        { value: "Private Tour", label: "පෞද්ගලික චාරිකා" },
     ];
     const durationOptions = [
-        { value: "3 days", label: "3 days" },
-        { value: "5 days", label: "5 days" },
-        { value: "7 days", label: "7 days" },
-        { value: "13 nights", label: "13 nights" },
-        { value: "14+ days", label: "14+ days" },
+        { value: "3 days", label: "දින 3" },
+        { value: "5 days", label: "දින 5" },
+        { value: "7 days", label: "දින 7" },
+        { value: "13 nights", label: "රාත්‍රී 13" },
+        { value: "14+ days", label: "දින 14+" },
     ];
     const categoryOptions = [
-        { value: "Standard", label: "Standard" },
-        { value: "Deluxe", label: "Deluxe" },
-        { value: "Budget", label: "Budget" },
+        { value: "Standard", label: "සාමාන්‍ය" },
+        { value: "Deluxe", label: "සුඛෝපභෝගී" },
+        { value: "Budget", label: "අවම මුදලට" },
     ];
 
     const handleChange = (name, value) => {
@@ -67,10 +67,10 @@ function Booking() {
                                     <i className="fa-light fa-route" />
                                 </div>
                                 <div className="search-input">
-                                    <label>Destination</label>
+                                    <label>ගමනාන්තය</label>
                                     <NiceSelect
                                         options={destinationOptions}
-                                        defaultValue="Select Destination"
+                                        defaultValue="ගමනාන්තය තෝරන්න"
                                         onChange={(value) => handleChange("destination", value)}
                                     />
                                 </div>
@@ -80,10 +80,10 @@ function Booking() {
                                     <i className="fa-regular fa-person-hiking" />
                                 </div>
                                 <div className="search-input">
-                                    <label>Type</label>
+                                    <label>වර්ගය</label>
                                     <NiceSelect
                                         options={adventureOptions}
-                                        defaultValue="Adventure"
+                                        defaultValue="චාරිකා වර්ගය"
                                         onChange={(value) => handleChange("adventureType", value)}
                                     />
                                 </div>
@@ -93,10 +93,10 @@ function Booking() {
                                     <i className="fa-light fa-clock" />
                                 </div>
                                 <div className="search-input">
-                                    <label>Duration</label>
+                                    <label>කාලසීමාව</label>
                                     <NiceSelect
                                         options={durationOptions}
-                                        defaultValue="Duration"
+                                        defaultValue="කාලසීමාව"
                                         onChange={(value) => handleChange("duration", value)}
                                     />
                                 </div>
@@ -106,10 +106,10 @@ function Booking() {
                                     <i className="fa-light fa-map-location-dot" />
                                 </div>
                                 <div className="search-input">
-                                    <label>Tour Category</label>
+                                    <label>සංචාරක කාණ්ඩය</label>
                                     <NiceSelect
                                         options={categoryOptions}
-                                        defaultValue="Select Category"
+                                        defaultValue="කාණ්ඩය තෝරන්න"
                                         onChange={(value) => handleChange("category", value)}
                                     />
                                 </div>
@@ -117,7 +117,7 @@ function Booking() {
                             <div className="form-btn col-md-12 col-lg-auto">
                                 <button className="th-btn" type="submit">
                                     <img src="/assets/img/icon/search.svg" alt="" />
-                                    Search
+                                    සොයන්න
                                 </button>
                             </div>
                         </div>

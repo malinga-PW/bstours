@@ -53,7 +53,7 @@ function HeaderOne() {
                             <div className="col-auto">
                                 <div className="header-right">
                                     <div className="currency-menu">
-                                        <NiceSelect options={languageOptions} defaultValue="Language" />
+                                        <div id="google_translate_element"></div>
                                     </div>
 
                                     <div className="header-links">
@@ -69,7 +69,7 @@ function HeaderOne() {
                                                     type="button"
                                                     onClick={() => setIsLoginFormOpen(true)}
                                                 >
-                                                    Sign In / Register
+                                                    ගිණුමට පිවිසෙන්න / ලියාපදිංචි වන්න
                                                     <i className="fa-regular fa-user" />
                                                 </button>
                                             </li>
@@ -97,7 +97,7 @@ function HeaderOne() {
                                         <ul>
                                             <li className="menu-item-has-children mega-menu-wrap">
                                                 <Link className="active" to="/">
-                                                    Home
+                                                    මුල් පිටුව
                                                 </Link>
                                                 <ul className="mega-menu mega-menu-content">
                                                     <li>
@@ -204,10 +204,10 @@ function HeaderOne() {
                                                 </ul>
                                             </li>
                                             <li>
-                                                <Link to="/about">About Us</Link>
+                                                <Link to="/about">අප ගැන</Link>
                                             </li>
                                             <li className="menu-item-has-children">
-                                                <Link to="#">Destination</Link>
+                                                <Link to="#">ගමනාන්ත</Link>
                                                 <ul className="sub-menu">
                                                     <li>
                                                         <Link to="/destination">Destination</Link>
@@ -220,7 +220,7 @@ function HeaderOne() {
                                                 </ul>
                                             </li>
                                             <li className="menu-item-has-children">
-                                                <Link to="#">Service</Link>
+                                                <Link to="#">සේවාවන්</Link>
                                                 <ul className="sub-menu">
                                                     <li>
                                                         <Link to="/service">Services</Link>
@@ -231,7 +231,7 @@ function HeaderOne() {
                                                 </ul>
                                             </li>
                                             <li className="menu-item-has-children">
-                                                <Link to="#">Activities</Link>
+                                                <Link to="#">ක්‍රියාකාරකම්</Link>
                                                 <ul className="sub-menu">
                                                     <li>
                                                         <Link to="/activities">activities</Link>
@@ -242,7 +242,7 @@ function HeaderOne() {
                                                 </ul>
                                             </li>
                                             <li className="menu-item-has-children">
-                                                <Link to="#">Pages</Link>
+                                                <Link to="#">පිටු</Link>
                                                 <ul className="sub-menu">
                                                     <li className="menu-item-has-children">
                                                         <Link to="#">Shop</Link>
@@ -302,7 +302,7 @@ function HeaderOne() {
                                                 </ul>
                                             </li>
                                             <li className="menu-item-has-children">
-                                                <Link to="#">Blog</Link>
+                                                <Link to="#">ලිපි</Link>
                                                 <ul className="sub-menu">
                                                     <li>
                                                         <Link to="/blog">Blog</Link>
@@ -313,7 +313,7 @@ function HeaderOne() {
                                                 </ul>
                                             </li>
                                             <li>
-                                                <Link to="/contact">Contact us</Link>
+                                                <Link to="/contact">අප හා සම්බන්ධ වන්න</Link>
                                             </li>
                                         </ul>
                                     </nav>
@@ -328,7 +328,7 @@ function HeaderOne() {
                                 <div className="col-auto d-none d-xl-block">
                                     <div className="header-button">
                                         <Link to="/contact" className="th-btn style3 th-icon">
-                                            Book Now
+                                            වෙන්කරවා ගන්න
                                         </Link>
                                     </div>
                                 </div>

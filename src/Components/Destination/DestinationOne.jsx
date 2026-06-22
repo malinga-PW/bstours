@@ -81,8 +81,8 @@ function DestinationOne() {
     <div className="position-relative overflow-hidden">
       <div className="container">
         <div className="title-area text-center">
-          <span className="sub-title">Sacred Destinations</span>
-          <h2 className="sec-title">Popular Pilgrimage & Tour Destinations</h2>
+          <span className="sub-title">පූජනීය ගමනාන්ත</span>
+          <h2 className="sec-title">ජනප්‍රිය වන්දනා සහ සංචාරක ගමනාන්ත</h2>
         </div>
 
         <div className={`slider-drag-wrap ${cursorActive ? 'active' : ''}`}>
@@ -97,11 +97,11 @@ function DestinationOne() {
                         <h4 className="box-title">
                           <Link to="/destination/1">{dest.name}</Link>
                         </h4>
-                        <span className="destination-subtitle">{dest.listings} Listing</span>
+                        <span className="destination-subtitle">{dest.listings} චාරිකා</span>
                       </div>
                       <div>
                         <Link to="/destination" className="th-btn style2 th-icon">
-                          View All
+                          සියල්ල බලන්න
                         </Link>
                       </div>
                     </div>
