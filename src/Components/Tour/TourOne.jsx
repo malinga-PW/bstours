@@ -41,11 +41,11 @@ function TourOne() {
             <SwiperSlide key="tour1">
               <div className="tour-box th-ani gsap-cursor">
                 <div className="tour-box_img global-img">
-                  <img src="/assets/img/tour/tour_box_1.jpg" alt="Greece Tour Package" />
+                  <img src="/assets/img/tour/tour_box_1.jpg" alt="India (Dambadiwa) Tour" />
                 </div>
                 <div className="tour-content">
                   <h3 className="box-title">
-                    <Link to="/tour-details">Greece Tour Package</Link>
+                    <Link to="/tour-details">India (Dambadiwa) Tour</Link>
                   </h3>
                   <div className="tour-rating">
                     <div className="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -75,11 +75,11 @@ function TourOne() {
             <SwiperSlide key="tour2">
               <div className="tour-box th-ani gsap-cursor">
                 <div className="tour-box_img global-img">
-                  <img src="/assets/img/tour/tour_box_2.jpg" alt="Italy Tour Package" />
+                  <img src="/assets/img/tour/tour_box_2.jpg" alt="Thailand Tour" />
                 </div>
                 <div className="tour-content">
                   <h3 className="box-title">
-                    <Link to="/tour-details">Italy Tour Package</Link>
+                    <Link to="/tour-details">Thailand Tour</Link>
                   </h3>
                   <div className="tour-rating">
                     <div className="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -109,11 +109,11 @@ function TourOne() {
             <SwiperSlide key="tour3">
               <div className="tour-box th-ani gsap-cursor">
                 <div className="tour-box_img global-img">
-                  <img src="/assets/img/tour/tour_box_3.jpg" alt="Dubai Tour Package" />
+                  <img src="/assets/img/tour/tour_box_3.jpg" alt="Sri Lanka Tour" />
                 </div>
                 <div className="tour-content">
                   <h3 className="box-title">
-                    <Link to="/tour-details">Dubai Tour Package</Link>
+                    <Link to="/tour-details">Sri Lanka Tour</Link>
                   </h3>
                   <div className="tour-rating">
                     <div className="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -143,11 +143,11 @@ function TourOne() {
             <SwiperSlide key="tour4">
               <div className="tour-box th-ani gsap-cursor">
                 <div className="tour-box_img global-img">
-                  <img src="/assets/img/tour/tour_box_4.jpg" alt="Switzerland Tour" />
+                  <img src="/assets/img/tour/tour_box_4.jpg" alt="Nepal (Lumbini) Tour" />
                 </div>
                 <div className="tour-content">
                   <h3 className="box-title">
-                    <Link to="/tour-details">Switzerland Tour</Link>
+                    <Link to="/tour-details">Nepal (Lumbini) Tour</Link>
                   </h3>
                   <div className="tour-rating">
                     <div className="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -177,11 +177,11 @@ function TourOne() {
             <SwiperSlide key="tour5">
               <div className="tour-box th-ani gsap-cursor">
                 <div className="tour-box_img global-img">
-                  <img src="/assets/img/tour/tour_box_1.jpg" alt="Greece Tour Package" />
+                  <img src="/assets/img/tour/tour_box_1.jpg" alt="India (Dambadiwa) Tour" />
                 </div>
                 <div className="tour-content">
                   <h3 className="box-title">
-                    <Link to="/tour-details">Greece Tour Package</Link>
+                    <Link to="/tour-details">India (Dambadiwa) Tour</Link>
                   </h3>
                   <div className="tour-rating">
                     <div className="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -211,11 +211,11 @@ function TourOne() {
             <SwiperSlide key="tour6">
               <div className="tour-box th-ani gsap-cursor">
                 <div className="tour-box_img global-img">
-                  <img src="/assets/img/tour/tour_box_2.jpg" alt="Italy Tour Package" />
+                  <img src="/assets/img/tour/tour_box_2.jpg" alt="Thailand Tour" />
                 </div>
                 <div className="tour-content">
                   <h3 className="box-title">
-                    <Link to="/tour-details">Italy Tour Package</Link>
+                    <Link to="/tour-details">Thailand Tour</Link>
                   </h3>
                   <div className="tour-rating">
                     <div className="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -245,11 +245,11 @@ function TourOne() {
             <SwiperSlide key="tour7">
               <div className="tour-box th-ani gsap-cursor">
                 <div className="tour-box_img global-img">
-                  <img src="/assets/img/tour/tour_box_3.jpg" alt="Dubai Tour Package" />
+                  <img src="/assets/img/tour/tour_box_3.jpg" alt="Sri Lanka Tour" />
                 </div>
                 <div className="tour-content">
                   <h3 className="box-title">
-                    <Link to="/tour-details">Dubai Tour Package</Link>
+                    <Link to="/tour-details">Sri Lanka Tour</Link>
                   </h3>
                   <div className="tour-rating">
                     <div className="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -279,11 +279,11 @@ function TourOne() {
             <SwiperSlide key="tour8">
               <div className="tour-box th-ani gsap-cursor">
                 <div className="tour-box_img global-img">
-                  <img src="/assets/img/tour/tour_box_4.jpg" alt="Switzerland Tour" />
+                  <img src="/assets/img/tour/tour_box_4.jpg" alt="Nepal (Lumbini) Tour" />
                 </div>
                 <div className="tour-content">
                   <h3 className="box-title">
-                    <Link to="/tour-details">Switzerland Tour</Link>
+                    <Link to="/tour-details">Nepal (Lumbini) Tour</Link>
                   </h3>
                   <div className="tour-rating">
                     <div className="star-rating" role="img" aria-label="Rated 5.00 out of 5">
