@@ -9,14 +9,14 @@ const CategoryOne = () => {
   const swiperRef = useRef(null);
 
   const categories = [
-    { id: 1, title: "Dambadiwa Pilgrimage", imgSrc: "/assets/img/category/category_1_1.jpg" },
-    { id: 2, title: "India Tours", imgSrc: "/assets/img/category/category_1_2.jpg" },
-    { id: 3, title: "Thailand Tours", imgSrc: "/assets/img/category/category_1_3.jpg" },
-    { id: 4, title: "Bangkok Tours", imgSrc: "/assets/img/category/category_1_4.jpg" },
-    { id: 5, title: "Sri Lanka Tours", imgSrc: "/assets/img/category/category_1_5.jpg" },
-    { id: 6, title: "Nepal Tours", imgSrc: "/assets/img/category/category_1_1.jpg" },
-    { id: 7, title: "Group Tours", imgSrc: "/assets/img/category/category_1_2.jpg" },
-    { id: 8, title: "Private Tours", imgSrc: "/assets/img/category/category_1_3.jpg" },
+    { id: 1, title: "දඹදිව වන්දනාව", imgSrc: "/assets/img/category/category_1_1.jpg" },
+    { id: 2, title: "ඉන්දියානු චාරිකා", imgSrc: "/assets/img/category/category_1_2.jpg" },
+    { id: 3, title: "තායිලන්ත චාරිකා", imgSrc: "/assets/img/category/category_1_3.jpg" },
+    { id: 4, title: "බැංකොක් චාරිකා", imgSrc: "/assets/img/category/category_1_4.jpg" },
+    { id: 5, title: "ශ්‍රී ලංකාවේ චාරිකා", imgSrc: "/assets/img/category/category_1_5.jpg" },
+    { id: 6, title: "නේපාල චාරිකා", imgSrc: "/assets/img/category/category_1_1.jpg" },
+    { id: 7, title: "කණ්ඩායම් චාරිකා", imgSrc: "/assets/img/category/category_1_2.jpg" },
+    { id: 8, title: "පෞද්ගලික චාරිකා", imgSrc: "/assets/img/category/category_1_3.jpg" },
   ];
 
   useEffect(() => {
@@ -76,8 +76,8 @@ const CategoryOne = () => {
     >
       <div className="container th-container">
         <div className="title-area text-center">
-          <span className="sub-title">Wonderful Place For You</span>
-          <h2 className="sec-title">Tour Categories</h2>
+          <span className="sub-title">ඔබට ගැලපෙනම ස්ථානය</span>
+          <h2 className="sec-title">සංචාරක කාණ්ඩ</h2>
         </div>
 
         <Swiper
@@ -112,7 +112,7 @@ const CategoryOne = () => {
                   <Link to="/destination">{category.title}</Link>
                 </h3>
                 <Link className="line-btn" to="/destination">
-                  See more
+                  තවත් බලන්න
                 </Link>
               </div>
             </SwiperSlide>

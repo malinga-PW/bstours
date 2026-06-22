@@ -46,12 +46,12 @@ function Booking() {
 
 
         if (!formData.destination || !formData.adventureType || !formData.duration || !formData.category) {
-            setFormMessage({ text: "Please fill in all fields before searching.", type: "error" });
+            setFormMessage({ text: "කරුණාකර සෙවුම් කිරීමට පෙර සියලුම තොරතුරු ඇතුළත් කරන්න.", type: "error" });
            
             return;
         }
 
-        setFormMessage({ text: "Search submitted successfully!", type: "success" });
+        setFormMessage({ text: "ඔබගේ සෙවුම සාර්ථකයි!", type: "success" });
 
         setFormData({ destination: "", adventureType: "", duration: "", category: "" });
     };

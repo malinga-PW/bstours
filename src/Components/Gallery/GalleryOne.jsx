@@ -22,8 +22,8 @@ function GalleryOne() {
         <div className="gallery-area">
             <div className="container th-container shape-mockup-wrap">
                 <div className="title-area text-center">
-                    <span className="sub-title">Make Your Tour More Pleasure</span>
-                    <h2 className="sec-title">Recent Gallery</h2>
+                    <span className="sub-title">ඔබගේ චාරිකාව වඩාත් සුවිශේෂී කරගන්න</span>
+                    <h2 className="sec-title">මෑත කාලීන ඡායාරූප</h2>
                 </div>
                 <div className="row gy-10 gx-10 justify-content-center align-items-center">
                     <div className="col-md-6 col-lg-2">

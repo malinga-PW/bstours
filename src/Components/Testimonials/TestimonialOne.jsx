@@ -6,40 +6,40 @@ import "swiper/css/pagination";
 
 const testimonials = [
   {
-    name: "Kamal Perera",
-    designation: "Pilgrimage Traveller",
+    name: "කමල් පෙරේරා",
+    designation: "වන්දනා චාරිකා",
     image: "/assets/img/testimonial/testi_1_1.jpg",
-    text: "Excellent service for our Dambadiwa pilgrimage tour. Everything was well organized from accommodation to transport. Highly recommended for Buddhist pilgrimage tours.",
+    text: "අපගේ දඹදිව වන්දනා චාරිකාව සඳහා විශිෂ්ට සේවාවක් ලැබුණි. නවාතැන් වල සිට ප්‍රවාහනය දක්වා සියල්ල මනාව සංවිධානය කර තිබුණි. බෞද්ධ වන්දනා චාරිකා සඳහා බෙහෙවින් නිර්දේශ කරමි.",
   },
   {
-    name: "Samantha Fernando",
-    designation: "Thailand Tour",
+    name: "සමන්තා ප්‍රනාන්දු",
+    designation: "තායිලන්ත චාරිකා",
     image: "/assets/img/testimonial/testi_1_2.jpg",
-    text: "Our Thailand tour was amazing! BSTours.lk took care of everything. The guide was very knowledgeable and spoke Sinhala, which made the trip so much easier.",
+    text: "අපගේ තායිලන්ත සංචාරය ඉතාමත් අපූරුයි! BSTours.lk සෑම දෙයක්ම හොඳින් සැලසුම් කළා. මඟපෙන්වන්නා ඉතා දැනුම්වත් වූ අතර සිංහල භාෂාවෙන් කතා කිරීම අපගේ ගමන වඩාත් පහසු කළා.",
   },
   {
-    name: "Nimal de Silva",
-    designation: "India Tour",
+    name: "නිමල් ද සිල්වා",
+    designation: "ඉන්දියානු චාරිකා",
     image: "/assets/img/testimonial/testi_1_1.jpg",
-    text: "I joined the Budusuwanda Dambadiwa Vandana tour. It was a life-changing experience. All sacred sites were covered and the arrangements were perfect.",
+    text: "මම බුදු සුවඳ දඹදිව වන්දනා චාරිකාවට එක් වුණා. එය මගේ ජීවිතයේ අමතක නොවන අත්දැකීමක්. සියලුම පූජනීය ස්ථාන ආවරණය කළ අතර සංවිධාන කටයුතු විශිෂ්ටයි.",
   },
   {
-    name: "Dilani Jayawardena",
-    designation: "Family Traveller",
+    name: "දිලානි ජයවර්ධන",
+    designation: "පවුලේ චාරිකා",
     image: "/assets/img/testimonial/testi_1_1.jpg",
-    text: "We booked our Sri Lanka tour with BSTours and it was fantastic. Professional team, comfortable vehicles and great value for money.",
+    text: "අපි අපේ ශ්‍රී ලංකා සංචාරය BSTours සමඟ වෙන්කරවා ගත් අතර එය අපූරුයි. වෘත්තීය කණ්ඩායම, සුවපහසු වාහන සහ මුදලට සරිලන විශිෂ්ට සේවාවක්.",
   },
   {
-    name: "Thusitha Kumara",
-    designation: "Bangkok Tour",
+    name: "තුසිත කුමාර",
+    designation: "බැංකොක් චාරිකා",
     image: "/assets/img/testimonial/testi_1_2.jpg",
-    text: "Bangkok tour was well planned. Visited all major temples and shopping areas. The hotel was excellent and the guide was very helpful.",
+    text: "බැංකොක් චාරිකාව ඉතා මනාව සැලසුම් කර තිබුණි. ප්‍රධාන විහාරස්ථාන සහ සාප්පු සංකීර්ණ සියල්ල නැරඹීමට හැකි විය. හෝටලය සහ මඟපෙන්වන්නාගේ සහය ඉතා විශිෂ්ටයි.",
   },
   {
-    name: "Priya Wickramasinghe",
-    designation: "Pilgrimage Traveller",
+    name: "ප්‍රියා වික්‍රමසිංහ",
+    designation: "වන්දනා චාරිකා",
     image: "/assets/img/testimonial/testi_1_1.jpg",
-    text: "Best travel agency for Indian pilgrimage tours. Everything from visa to hotel was handled professionally. Will definitely travel with them again.",
+    text: "ඉන්දියානු වන්දනා චාරිකා සඳහා හොඳම සංචාරක ආයතනයයි. වීසා බලපත්‍රයේ සිට හෝටලය දක්වා සියල්ල වෘත්තීය මට්ටමින් සිදු කළා. නැවතත් ඔවුන් සමඟ සංචාරය කිරීමට බලාපොරොත්තු වෙමි.",
   },
 ];
 
@@ -48,8 +48,8 @@ function TestimonialOne() {
     <section className="testi-area overflow-hidden space shape-mockup-wrap" id="testi-sec">
       <div className="container-fluid p-0">
         <div className="title-area mb-20 text-center">
-          <span className="sub-title">Testimonial</span>
-          <h2 className="sec-title">What Clients Say About Us</h2>
+          <span className="sub-title">පාරිභෝගික අදහස්</span>
+          <h2 className="sec-title">අප ගැන ඔවුන් පවසන දේ</h2>
         </div>
         <div className="slider-area">
           <Swiper

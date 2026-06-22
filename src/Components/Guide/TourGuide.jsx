@@ -6,14 +6,14 @@ import "swiper/css/pagination";
 import { Link } from "react-router-dom";
 
 const guides = [
-  { id: 1, name: "Jacob Jones", image: "team_1_1.jpg" },
-  { id: 2, name: "Jane Cooper", image: "team_1_2.jpg" },
-  { id: 3, name: "Guy Hawkins", image: "team_1_3.jpg" },
-  { id: 4, name: "Jenny Wilson", image: "team_1_4.jpg" },
-  { id: 5, name: "Jacob Jones", image: "team_1_1.jpg" },
-  { id: 6, name: "Jane Cooper", image: "team_1_2.jpg" },
-  { id: 7, name: "Guy Hawkins", image: "team_1_3.jpg" },
-  { id: 8, name: "Jenny Wilson", image: "team_1_4.jpg" },
+  { id: 1, name: "ජාකොබ් ජෝන්ස්", image: "team_1_1.jpg" },
+  { id: 2, name: "ජේන් කූපර්", image: "team_1_2.jpg" },
+  { id: 3, name: "ගයි හෝකින්ස්", image: "team_1_3.jpg" },
+  { id: 4, name: "ජෙනී විල්සන්", image: "team_1_4.jpg" },
+  { id: 5, name: "ජාකොබ් ජෝන්ස්", image: "team_1_1.jpg" },
+  { id: 6, name: "ජේන් කූපර්", image: "team_1_2.jpg" },
+  { id: 7, name: "ගයි හෝකින්ස්", image: "team_1_3.jpg" },
+  { id: 8, name: "ජෙනී විල්සන්", image: "team_1_4.jpg" },
 ];
 
 function TourGuide() {
@@ -35,8 +35,8 @@ function TourGuide() {
     >
       <div className="container z-index-common">
         <div className="title-area text-center">
-          <span className="sub-title">Meet with Guide</span>
-          <h2 className="sec-title">Tour Guide</h2>
+          <span className="sub-title">මඟපෙන්වන්නන් හමුවන්න</span>
+          <h2 className="sec-title">සංචාරක මඟපෙන්වන්නන්</h2>
         </div>
         <div className="slider-area">
           <Swiper
@@ -66,7 +66,7 @@ function TourGuide() {
                       <h3 className="box-title">
                         <Link to="/tour-guide/1">{guide.name}</Link>
                       </h3>
-                      <span className="team-desig">Tourist Guide</span>
+                      <span className="team-desig">සංචාරක මඟපෙන්වන්නා</span>
                       <div className="th-social">
                         {["facebook", "twitter", "instagram", "linkedin"].map((platform) => (
                           <Link key={platform} target="_blank" rel="noopener noreferrer" to={`https://${platform}.com/`}>
