@@ -54,7 +54,7 @@ function HeaderOne() {
                             <div className="col-auto">
                                 <div className="header-right">
                                     <div className="currency-menu">
-                                        <div id="google_translate_element"></div>
+                                        <div id="google_translate_element" style={{ display: 'none' }}></div>
                                         <LanguageSwitcher />
                                     </div>
 
