@@ -125,7 +125,7 @@ function CounterThree() {
                                         <span />
                                     </div>
                                     <div className="media-body">
-                                        <h3 className="box-number">
+                                        <h3 className="box-number notranslate" translate="no">
                                             <CountUp end={12} duration={2} />{" "}
                                         </h3>
                                         <h6 className="counter-title">Years Experience</h6>
@@ -138,7 +138,7 @@ function CounterThree() {
                                         <span />
                                     </div>
                                     <div className="media-body">
-                                        <h3 className="box-number">
+                                        <h3 className="box-number notranslate" translate="no">
                                             <CountUp end={97} duration={2} />%{" "}
                                         </h3>
                                         <h6 className="counter-title">Retention Rate</h6>
@@ -151,7 +151,7 @@ function CounterThree() {
                                         <span />
                                     </div>
                                     <div className="media-body">
-                                        <h3 className="box-number">
+                                        <h3 className="box-number notranslate" translate="no">
                                             <CountUp end={8} duration={2} />k{" "}
                                         </h3>
                                         <h6 className="counter-title">Tour Completed</h6>
@@ -164,7 +164,7 @@ function CounterThree() {
                                         <span />
                                     </div>
                                     <div className="media-body">
-                                        <h3 className="box-number">
+                                        <h3 className="box-number notranslate" translate="no">
                                             <CountUp end={19} duration={2} />k{" "}
                                         </h3>
                                         <h6 className="counter-title">Happy Travellers</h6>

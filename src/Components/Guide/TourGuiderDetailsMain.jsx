@@ -90,7 +90,7 @@ function TourGuiderDetailsMain() {
                                 <div ref={ref} className="counter-box-wrap">
                                     {counters.map((counter, index) => (
                                         <div key={index} className="counter-box">
-                                            <h2 className="counter-box_number">
+                                            <h2 className="counter-box_number notranslate" translate="no">
                                                 <CountUp
                                                     start={0}
                                                     end={inView ? counter.value : 0}

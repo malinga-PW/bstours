@@ -25,7 +25,7 @@ function CounterTwo() {
                             <div className="counter-card">
                                 <div className="counter-shape"><span></span></div>
                                 <div className="media-body">
-                                    <h3 className="box-number">
+                                    <h3 className="box-number notranslate" translate="no">
                                         {inView && (
                                             <CountUp
                                                 start={0}
