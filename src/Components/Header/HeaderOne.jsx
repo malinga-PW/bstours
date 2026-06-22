@@ -90,7 +90,7 @@ function HeaderOne() {
                                 <div className="col-auto">
                                     <div className="header-logo">
                                         <Link to="/">
-                                            <img src="/assets/img/bstours-logo.png" alt="BSTours.lk" style={{height:"50px"}} />
+                                            <img src="/assets/img/bstours-logo.png" alt="BSTours.lk" />
                                         </Link>
                                     </div>
                                 </div>
