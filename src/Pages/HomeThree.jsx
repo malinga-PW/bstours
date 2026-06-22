@@ -12,7 +12,7 @@ import ContactOne from '../Components/Contact/ContactOne'
 import TestimonialThree from '../Components/Testimonials/TestimonialThree'
 import BrandOne from '../Components/Brand/BrandOne'
 import BlogThree from '../Components/Blog/BlogThree'
-import FooterTwo from '../Components/Footer/FooterTwo'
+import FooterOne from '../Components/Footer/FooterOne'
 import ScrollToTop from '../Components/ScrollToTop'
 
 function HomeThree() {
@@ -31,7 +31,7 @@ function HomeThree() {
             <TestimonialThree />
             <BrandOne className="space"/>
             <BlogThree />
-            <FooterTwo />
+            <FooterOne />
             <ScrollToTop />
         </div>
     )

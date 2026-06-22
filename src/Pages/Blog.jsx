@@ -3,7 +3,7 @@ import HeaderOne from '../Components/Header/HeaderOne'
 import Breadcrumb from '../Components/BreadCrumb/Breadcrumb'
 import BlogInner from '../Components/Blog/BlogInner'
 import ScrollToTop from '../Components/ScrollToTop'
-import FooterFour from '../Components/Footer/FooterFour'
+import FooterOne from '../Components/Footer/FooterOne'
 
 function Blog() {
     return (
@@ -13,7 +13,7 @@ function Blog() {
                 title="Blog Lists View"
             />
             <BlogInner />
-            <FooterFour />
+            <FooterOne />
             <ScrollToTop />
         </>
     )

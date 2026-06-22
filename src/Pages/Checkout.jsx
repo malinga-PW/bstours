@@ -2,7 +2,7 @@ import React from 'react'
 import HeaderOne from '../Components/Header/HeaderOne'
 import Breadcrumb from '../Components/BreadCrumb/Breadcrumb'
 import CheckoutInner from '../Components/Shop/CheckoutInner'
-import FooterFour from '../Components/Footer/FooterFour'
+import FooterOne from '../Components/Footer/FooterOne'
 import ScrollToTop from '../Components/ScrollToTop'
 
 function Checkout() {
@@ -13,7 +13,7 @@ function Checkout() {
                 title='Checkout'
             />
             <CheckoutInner />
-            <FooterFour/>
+            <FooterOne />
             <ScrollToTop />
         </>
     )

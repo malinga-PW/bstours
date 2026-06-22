@@ -2,7 +2,7 @@ import React from 'react'
 import HeaderOne from '../Components/Header/HeaderOne'
 import Breadcrumb from '../Components/BreadCrumb/Breadcrumb'
 import ShopDetailsMain from '../Components/Shop/ShopDetailsMain'
-import FooterFour from '../Components/Footer/FooterFour'
+import FooterOne from '../Components/Footer/FooterOne'
 import ScrollToTop from '../Components/ScrollToTop'
 
 function ShopDetails() {
@@ -13,7 +13,7 @@ function ShopDetails() {
                 title='Shop Details'
             />
             <ShopDetailsMain />
-            <FooterFour />
+            <FooterOne />
             <ScrollToTop />
         </>
     )

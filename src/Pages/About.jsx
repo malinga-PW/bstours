@@ -8,7 +8,7 @@ import TourGuideTwo from '../Components/Guide/TourGuideTwo'
 import TestimonialOne from '../Components/Testimonials/TestimonialOne'
 import BrandOne from '../Components/Brand/BrandOne'
 import GalleryFive from '../Components/Gallery/GalleryFive'
-import FooterFour from '../Components/Footer/FooterFour'
+import FooterOne from '../Components/Footer/FooterOne'
 import ScrollToTop from '../Components/ScrollToTop'
 
 function About() {
@@ -25,7 +25,7 @@ function About() {
             <TestimonialOne />
             <BrandOne/>
             <GalleryFive />
-            <FooterFour />
+            <FooterOne />
             <ScrollToTop />
         </>
     )

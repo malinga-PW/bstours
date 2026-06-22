@@ -4,7 +4,7 @@ import Breadcrumb from '../Components/BreadCrumb/Breadcrumb'
 import FaqInner from '../Components/Faq/FaqInner'
 import ElementSection from '../Components/Elements/ElementSection'
 import FaqContact from '../Components/Faq/FaqContact'
-import FooterFour from '../Components/Footer/FooterFour'
+import FooterOne from '../Components/Footer/FooterOne'
 import ScrollToTop from '../Components/ScrollToTop'
 
 function Faq() {
@@ -17,7 +17,7 @@ function Faq() {
             <FaqInner />
             <ElementSection />
             <FaqContact />
-            <FooterFour />
+            <FooterOne />
             <ScrollToTop />
         </>
     )

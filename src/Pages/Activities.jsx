@@ -2,7 +2,7 @@ import React from 'react'
 import HeaderOne from '../Components/Header/HeaderOne'
 import Breadcrumb from '../Components/BreadCrumb/Breadcrumb'
 import ActivitiesInner from '../Components/Activities/ActivitiesInner'
-import FooterFour from '../Components/Footer/FooterFour'
+import FooterOne from '../Components/Footer/FooterOne'
 import ScrollToTop from '../Components/ScrollToTop'
 
 function Activities() {
@@ -13,7 +13,7 @@ function Activities() {
                 title="Activities"
             />
             <ActivitiesInner />
-            <FooterFour />
+            <FooterOne />
             <ScrollToTop />
         </>
     )
