@@ -65,24 +65,28 @@
     }
     
     /* Color Reorganization */
+    /* Top Banner Styles */
     .header-top {
-      background-color: #ffffff !important;
-      padding-top: 2px !important;
-      padding-bottom: 2px !important;
+      background-color: #005274 !important;
     }
+
     .header-top .header-links li,
     .header-top .header-links li a,
     .header-top .header-links li i,
-    .header-top .header-links li span,
-    .header-top button {
-      color: #005274 !important;
+    .header-top .header-links li span {
+      color: #ffffff !important;
     }
+
     .header-top .header-links li {
       padding-top: 2px !important;
       padding-bottom: 2px !important;
       display: inline-flex !important;
       align-items: center !important;
       vertical-align: middle !important;
+    }
+
+    .header-top .header-links li:not(:last-child):after {
+      background-color: rgba(255, 255, 255, 0.4) !important;
     }
 
     /* Orange logo background to White */
