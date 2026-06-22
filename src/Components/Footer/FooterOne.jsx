@@ -227,7 +227,7 @@ function FooterOne() {
                         </div>
                         <div className="col-md-6 text-end d-none d-md-block">
                             <div className="footer-card">
-                                <span className="title">අප පිළිගන්නා</span>
+                                <span className="title">We Accept</span>
                                 <img src="/assets/img/shape/cards.png" alt="" />
                             </div>
                         </div>
