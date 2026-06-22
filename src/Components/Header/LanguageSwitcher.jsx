@@ -67,6 +67,7 @@ export default function LanguageSwitcher() {
                 }}
             >
                 <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                    <i className="fa-solid fa-globe" style={{ fontSize: '14px', color: '#005274', marginRight: '2px' }} />
                     <img src={`https://flagcdn.com/w20/${currentLang.flag}.png`} alt="flag" style={{ width: '16px', borderRadius: '2px' }} />
                     <span>{currentLang.label}</span>
                 </div>
