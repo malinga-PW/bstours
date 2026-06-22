@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
 
 const languages = [
-    { code: 'si', label: 'Sinhala', flag: '🇱🇰', googleCode: '/si/si' },
-    { code: 'en', label: 'English', flag: '🇬🇧', googleCode: '/si/en' },
-    { code: 'ta', label: 'Tamil', flag: '🇱🇰', googleCode: '/si/ta' },
-    { code: 'ja', label: 'Japanese', flag: '🇯🇵', googleCode: '/si/ja' },
-    { code: 'th', label: 'Thai', flag: '🇹🇭', googleCode: '/si/th' },
-    { code: 'hi', label: 'Hindi', flag: '🇮🇳', googleCode: '/si/hi' },
+    { code: 'si', label: 'Sinhala', flag: 'lk', googleCode: '/si/si' },
+    { code: 'en', label: 'English', flag: 'gb', googleCode: '/si/en' },
+    { code: 'ta', label: 'Tamil', flag: 'lk', googleCode: '/si/ta' },
+    { code: 'ja', label: 'Japanese', flag: 'jp', googleCode: '/si/ja' },
+    { code: 'th', label: 'Thai', flag: 'th', googleCode: '/si/th' },
+    { code: 'hi', label: 'Hindi', flag: 'in', googleCode: '/si/hi' },
 ];
 
 export default function LanguageSwitcher() {
@@ -52,21 +52,21 @@ export default function LanguageSwitcher() {
                     background: '#ffffff',
                     color: '#005274',
                     border: '1px solid #005274',
-                    padding: '8px 20px',
+                    padding: '3px 12px',
                     borderRadius: '50px',
                     display: 'flex',
                     alignItems: 'center',
-                    gap: '8px',
+                    gap: '6px',
                     cursor: 'pointer',
                     fontWeight: 500,
                     fontFamily: 'Inter, sans-serif',
-                    fontSize: '14px',
-                    minWidth: '130px',
+                    fontSize: '13px',
+                    minWidth: '110px',
                     justifyContent: 'space-between'
                 }}
             >
-                <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                    <span style={{ fontSize: '16px' }}>{currentLang.flag}</span>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                    <img src={`https://flagcdn.com/w20/${currentLang.flag}.png`} alt="flag" style={{ width: '16px', borderRadius: '2px' }} />
                     <span>{currentLang.label}</span>
                 </div>
                 <i className="fa-regular fa-angle-down" />
@@ -94,17 +94,15 @@ export default function LanguageSwitcher() {
                                 style={{
                                     display: 'flex',
                                     alignItems: 'center',
-                                    gap: '10px',
+                                    gap: '8px',
                                     width: '100%',
-                                    padding: '8px 15px',
+                                    padding: '6px 15px',
                                     border: 'none',
                                     background: 'transparent',
-                                    textAlign: 'left',
                                     cursor: 'pointer',
-                                    color: '#333',
-                                    fontFamily: 'Inter, sans-serif',
-                                    fontSize: '14px',
-                                    transition: 'background 0.3s'
+                                    textAlign: 'left',
+                                    fontSize: '13px',
+                                    color: '#005274'
                                 }}
                                 onMouseOver={(e) => {
                                     e.currentTarget.style.background = '#f5f5f5';
@@ -112,10 +110,10 @@ export default function LanguageSwitcher() {
                                 }}
                                 onMouseOut={(e) => {
                                     e.currentTarget.style.background = 'transparent';
-                                    e.currentTarget.style.color = '#333';
+                                    e.currentTarget.style.color = '#005274';
                                 }}
                             >
-                                <span style={{ fontSize: '16px' }}>{lang.flag}</span>
+                                <img src={`https://flagcdn.com/w20/${lang.flag}.png`} alt="flag" style={{ width: '16px', borderRadius: '2px' }} />
                                 <span>{lang.label}</span>
                             </button>
                         </li>
