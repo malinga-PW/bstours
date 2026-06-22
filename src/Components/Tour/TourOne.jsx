@@ -45,7 +45,7 @@ function TourOne() {
                 </div>
                 <div className="tour-content">
                   <h3 className="box-title">
-                    <Link to="/tour-details">India (Dambadiwa) Tour</Link>
+                    <Link to="/tour-details">ඉන්දියාව (දඹදිව) චාරිකාව</Link>
                   </h3>
                   <div className="tour-rating">
                     <div className="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -55,7 +55,7 @@ function TourOne() {
                       </span>
                     </div>
                     <Link to="/tour-details" className="woocommerce-review-link">
-                      (<span className="count">4.8</span> Rating)
+                      (<span className="count">4.8</span> තරු)
                     </Link>
                   </div>
                   <h4 className="tour-box_price">
@@ -79,7 +79,7 @@ function TourOne() {
                 </div>
                 <div className="tour-content">
                   <h3 className="box-title">
-                    <Link to="/tour-details">Thailand Tour</Link>
+                    <Link to="/tour-details">තායිලන්ත චාරිකාව</Link>
                   </h3>
                   <div className="tour-rating">
                     <div className="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -89,7 +89,7 @@ function TourOne() {
                       </span>
                     </div>
                     <Link to="/tour-details" className="woocommerce-review-link">
-                      (<span className="count">4.8</span> Rating)
+                      (<span className="count">4.8</span> තරු)
                     </Link>
                   </div>
                   <h4 className="tour-box_price">
@@ -113,7 +113,7 @@ function TourOne() {
                 </div>
                 <div className="tour-content">
                   <h3 className="box-title">
-                    <Link to="/tour-details">Sri Lanka Tour</Link>
+                    <Link to="/tour-details">ශ්‍රී ලංකා චාරිකාව</Link>
                   </h3>
                   <div className="tour-rating">
                     <div className="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -123,7 +123,7 @@ function TourOne() {
                       </span>
                     </div>
                     <Link to="/tour-details" className="woocommerce-review-link">
-                      (<span className="count">4.8</span> Rating)
+                      (<span className="count">4.8</span> තරු)
                     </Link>
                   </div>
                   <h4 className="tour-box_price">
@@ -147,7 +147,7 @@ function TourOne() {
                 </div>
                 <div className="tour-content">
                   <h3 className="box-title">
-                    <Link to="/tour-details">Nepal (Lumbini) Tour</Link>
+                    <Link to="/tour-details">නේපාල (ලුම්බිණි) චාරිකාව</Link>
                   </h3>
                   <div className="tour-rating">
                     <div className="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -157,7 +157,7 @@ function TourOne() {
                       </span>
                     </div>
                     <Link to="/tour-details" className="woocommerce-review-link">
-                      (<span className="count">4.8</span> Rating)
+                      (<span className="count">4.8</span> තරු)
                     </Link>
                   </div>
                   <h4 className="tour-box_price">
@@ -181,7 +181,7 @@ function TourOne() {
                 </div>
                 <div className="tour-content">
                   <h3 className="box-title">
-                    <Link to="/tour-details">India (Dambadiwa) Tour</Link>
+                    <Link to="/tour-details">ඉන්දියාව (දඹදිව) චාරිකාව</Link>
                   </h3>
                   <div className="tour-rating">
                     <div className="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -191,7 +191,7 @@ function TourOne() {
                       </span>
                     </div>
                     <Link to="/tour-details" className="woocommerce-review-link">
-                      (<span className="count">4.8</span> Rating)
+                      (<span className="count">4.8</span> තරු)
                     </Link>
                   </div>
                   <h4 className="tour-box_price">
@@ -215,7 +215,7 @@ function TourOne() {
                 </div>
                 <div className="tour-content">
                   <h3 className="box-title">
-                    <Link to="/tour-details">Thailand Tour</Link>
+                    <Link to="/tour-details">තායිලන්ත චාරිකාව</Link>
                   </h3>
                   <div className="tour-rating">
                     <div className="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -225,7 +225,7 @@ function TourOne() {
                       </span>
                     </div>
                     <Link to="/tour-details" className="woocommerce-review-link">
-                      (<span className="count">4.8</span> Rating)
+                      (<span className="count">4.8</span> තරු)
                     </Link>
                   </div>
                   <h4 className="tour-box_price">
@@ -249,7 +249,7 @@ function TourOne() {
                 </div>
                 <div className="tour-content">
                   <h3 className="box-title">
-                    <Link to="/tour-details">Sri Lanka Tour</Link>
+                    <Link to="/tour-details">ශ්‍රී ලංකා චාරිකාව</Link>
                   </h3>
                   <div className="tour-rating">
                     <div className="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -259,7 +259,7 @@ function TourOne() {
                       </span>
                     </div>
                     <Link to="/tour-details" className="woocommerce-review-link">
-                      (<span className="count">4.8</span> Rating)
+                      (<span className="count">4.8</span> තරු)
                     </Link>
                   </div>
                   <h4 className="tour-box_price">
@@ -283,7 +283,7 @@ function TourOne() {
                 </div>
                 <div className="tour-content">
                   <h3 className="box-title">
-                    <Link to="/tour-details">Nepal (Lumbini) Tour</Link>
+                    <Link to="/tour-details">නේපාල (ලුම්බිණි) චාරිකාව</Link>
                   </h3>
                   <div className="tour-rating">
                     <div className="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -293,7 +293,7 @@ function TourOne() {
                       </span>
                     </div>
                     <Link to="/tour-details" className="woocommerce-review-link">
-                      (<span className="count">4.8</span> Rating)
+                      (<span className="count">4.8</span> තරු)
                     </Link>
                   </div>
                   <h4 className="tour-box_price">

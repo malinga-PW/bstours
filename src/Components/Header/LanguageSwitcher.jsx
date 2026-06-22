@@ -49,9 +49,9 @@ export default function LanguageSwitcher() {
             <button 
                 onClick={() => setIsOpen(!isOpen)}
                 style={{
-                    background: 'var(--theme-color)',
-                    color: '#fff',
-                    border: '1px solid rgba(255, 255, 255, 0.2)',
+                    background: '#ffffff',
+                    color: '#005274',
+                    border: '1px solid #005274',
                     padding: '8px 20px',
                     borderRadius: '50px',
                     display: 'flex',

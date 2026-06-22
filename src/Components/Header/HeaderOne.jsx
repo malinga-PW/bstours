@@ -61,10 +61,10 @@ function HeaderOne() {
                                     <div className="header-links">
                                         <ul>
                                             <li className="d-none d-md-inline-block">
-                                                <Link to="/faq">FAQ</Link>
+                                                <Link to="/faq">නිතර අසන ප්‍රශ්න</Link>
                                             </li>
                                             <li className="d-none d-md-inline-block">
-                                                <Link to="/contact">Support</Link>
+                                                <Link to="/contact">සහාය</Link>
                                             </li>
                                             <li>
                                                 <button

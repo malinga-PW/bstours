@@ -39,9 +39,9 @@ function AboutOne() {
                                         <img src="/assets/img/icon/map3.svg" alt="" />
                                     </div>
                                     <div className="about-item_centent">
-                                        <h5 className="box-title">Dambadiwa Pilgrimage</h5>
+                                        <h5 className="box-title">දඹදිව වන්දනා චාරිකා</h5>
                                         <p className="about-item_text">
-                                            Specialized India Buddhist pilgrimage tours covering sacred sites with comfortable transport and accommodation.
+                                            දඹදිව පුදබිම් ආවරණය වන පරිදි සැපපහසු ප්‍රවාහන හා නවාතැන් පහසුකම් සහිත විශේෂිත වන්දනා චාරිකා.
                                         </p>
                                     </div>
                                 </div>
@@ -50,16 +50,16 @@ function AboutOne() {
                                         <img src="/assets/img/icon/guide.svg" alt="" />
                                     </div>
                                     <div className="about-item_centent">
-                                        <h5 className="box-title">Expert Local Guides</h5>
+                                        <h5 className="box-title">පළපුරුදු මඟපෙන්වන්නන්</h5>
                                         <p className="about-item_text">
-                                            Experienced Sinhala-speaking guides ensuring a smooth and meaningful journey at every destination.
+                                            සෑම ස්ථානයකදීම මනා අවබෝධයකින් යුතුව මඟපෙන්වීමට පළපුරුදු සිංහල කතා කරන මඟපෙන්වන්නන්.
                                         </p>
                                     </div>
                                 </div>
                             </div>
                             <div className="mt-35">
                                 <Link to="/about" className="th-btn style3 th-icon">
-                                    Learn More
+                                    තවත් විස්තර
                                 </Link>
                             </div>
                         </div>

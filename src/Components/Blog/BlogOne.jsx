@@ -64,13 +64,13 @@ function BlogOne() {
           <div className="row align-items-center justify-content-between">
             <div className="col-md-7">
               <div className="title-area mb-md-0">
-                <span className="sub-title">Travel Tips & Guides</span>
-                <h2 className="sec-title">News & Articles From BSTours.lk</h2>
+                <span className="sub-title">සංචාරක උපදෙස් සහ මඟපෙන්වීම්</span>
+                <h2 className="sec-title">BSTours.lk වෙතින් නවතම පුවත් සහ ලිපි</h2>
               </div>
             </div>
             <div className="col-md-auto">
               <Link to="/blog" className="th-btn style4 th-icon">
-                See More Articles
+                තවත් ලිපි කියවන්න
               </Link>
             </div>
           </div>
@@ -106,7 +106,7 @@ function BlogOne() {
                     <Link to={post.detailsLink}>{post.title}</Link>
                   </h3>
                   <Link to={post.detailsLink} className="th-btn style4 th-icon">
-                    Read More
+                    තවත් කියවන්න
                   </Link>
                 </div>
               </div>

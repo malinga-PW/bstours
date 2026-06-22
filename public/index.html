@@ -53,6 +53,42 @@
     #goog-gt-tt {
       display: none !important;
     }
+    
+    /* Hide google translate frame globally */
+    body {
+      top: 0 !important;
+      position: static !important;
+    }
+    .skiptranslate,
+    .goog-te-banner-frame {
+      display: none !important;
+    }
+    
+    /* Color Reorganization */
+    .header-top {
+      background-color: #ffffff !important;
+    }
+    .header-top .header-links li,
+    .header-top .header-links li a,
+    .header-top .header-links li i,
+    .header-top .header-links li span,
+    .header-top button {
+      color: #005274 !important;
+    }
+    .menu-area {
+      background-color: #f8f9fa !important;
+    }
+    .main-menu > ul > li > a {
+      color: #005274 !important;
+    }
+    .main-menu > ul > li > a:hover {
+      color: var(--theme-color) !important;
+    }
+    .sticky-wrapper.sticky .menu-area {
+      background-color: #ffffff !important;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    
     body {
       top: 0px !important;
     }
