@@ -235,6 +235,54 @@
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
+
+  <script>
+    (function() {
+        function convertCurrency() {
+            const isSinhala = document.cookie.includes('googtrans=/si/si') || document.cookie.includes('googtrans=/en/si');
+            
+            const priceElements = document.querySelectorAll('.currency, .price, .widget_price, .faq-price');
+            
+            priceElements.forEach(el => {
+                // Prevent Google Translate from messing with the currency display
+                if (!el.classList.contains('notranslate')) {
+                    el.classList.add('notranslate');
+                }
+
+                // Store original price safely
+                let originalText = el.getAttribute('data-original-price');
+                if (!originalText) {
+                    originalText = el.innerText;
+                    el.setAttribute('data-original-price', originalText);
+                }
+
+                if (isSinhala) {
+                    if (originalText.includes('$')) {
+                        const newText = originalText.replace(/\$([0-9,]+(?:\.[0-9]+)?)/g, function(match, numStr) {
+                            const amount = parseFloat(numStr.replace(/,/g, ''));
+                            if (!isNaN(amount)) {
+                                const lkr = amount * 300;
+                                return 'රු. ' + lkr.toLocaleString('en-LK') + '.00';
+                            }
+                            return match;
+                        });
+                        if (el.innerText !== newText) {
+                            el.innerText = newText;
+                        }
+                    }
+                } else {
+                    // Restore original if not Sinhala
+                    if (el.innerText !== originalText) {
+                        el.innerText = originalText;
+                    }
+                }
+            });
+        }
+
+        // Run frequently to catch React updates and dynamic components
+        setInterval(convertCurrency, 500);
+    })();
+  </script>
   <script type="text/javascript">
     function googleTranslateElementInit() {
       new google.translate.TranslateElement({pageLanguage: 'si', includedLanguages: 'en,si,ta,ja,th,hi', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
