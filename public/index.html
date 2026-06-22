@@ -87,41 +87,37 @@
       background-color: #ffffff !important;
     }
 
-    /* White Menu Area to Blue */
+    /* Menu Area to White */
     .menu-area {
-      background-color: #005274 !important;
+      background-color: #ffffff !important;
       min-height: 92px; /* Restore original header height */
       display: flex;
       align-items: center;
     }
     
-    /* Menu Text to White, normal text with underline on hover */
+    /* Menu Text to Blue, with pill shape on hover */
     .main-menu > ul > li > a {
-      color: #ffffff !important;
+      color: #005274 !important;
       background-color: transparent !important;
-      padding: 10px 15px 12px 15px !important;
+      padding: 10px 18px !important;
+      margin: 0 2px !important;
+      border-radius: 50px !important;
       display: inline-block;
       line-height: 1;
       font-weight: 600;
-      position: relative;
       text-decoration: none;
-      /* Background underline animation */
-      background-image: linear-gradient(var(--theme-color), var(--theme-color)) !important;
-      background-size: 0% 2px !important;
-      background-position: center bottom !important;
-      background-repeat: no-repeat !important;
-      transition: background-size 0.3s ease, color 0.3s ease !important;
+      transition: all 0.3s ease !important;
     }
     
     .main-menu > ul > li > a:hover,
     .main-menu > ul > li > a.active {
-      background-size: 80% 2px !important;
-      color: var(--theme-color) !important;
+      background-color: #005274 !important;
+      color: #ffffff !important;
     }
 
     .sticky-wrapper.sticky .menu-area {
-      background-color: #005274 !important;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      background-color: #ffffff !important;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
       min-height: 46px !important; /* 50% of 92px */
     }
     
@@ -144,9 +140,9 @@
     }
 
     .header-button .th-btn {
-      background-color: #ffffff !important;
-      color: #005274 !important;
-      border: 1px solid #ffffff !important;
+      background-color: #005274 !important;
+      color: #ffffff !important;
+      border: 1px solid #005274 !important;
       padding: 10px 20px !important;
       font-size: 14px !important;
       border-radius: 50px !important;
