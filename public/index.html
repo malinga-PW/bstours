@@ -94,19 +94,20 @@
     
     /* Menu Text to White, and Pill shape on hover/active */
     .main-menu > ul > li > a {
-      color: #005274 !important;
-      background-color: #ffffff !important;
-      padding: 10px 20px !important;
-      margin: 10px 5px !important;
+      color: #ffffff !important;
+      background-color: transparent !important;
+      padding: 8px 16px !important;
+      margin: 0 2px !important;
       border-radius: 50px !important;
       display: inline-block;
       line-height: 1;
-      font-weight: 700;
+      font-weight: 600;
+      transition: all 0.3s ease;
     }
     .main-menu > ul > li > a:hover,
     .main-menu > ul > li > a.active {
-      color: #ffffff !important;
-      background-color: var(--theme-color) !important;
+      color: #005274 !important;
+      background-color: #ffffff !important;
     }
 
     .sticky-wrapper.sticky .menu-area {
@@ -118,6 +119,9 @@
       background-color: #ffffff !important;
       color: #005274 !important;
       border: 1px solid #ffffff !important;
+      padding: 12px 24px !important;
+      border-radius: 50px !important;
+      font-weight: bold;
     }
     .header-button .th-btn:hover {
       background-color: var(--theme-color) !important;
