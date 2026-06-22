@@ -62,7 +62,8 @@ export default function LanguageSwitcher() {
                     fontFamily: 'Inter, sans-serif',
                     fontSize: '13px',
                     minWidth: '110px',
-                    justifyContent: 'space-between'
+                    justifyContent: 'space-between',
+                    outline: 'none'
                 }}
             >
                 <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
@@ -102,7 +103,8 @@ export default function LanguageSwitcher() {
                                     cursor: 'pointer',
                                     textAlign: 'left',
                                     fontSize: '13px',
-                                    color: '#005274'
+                                    color: '#005274',
+                                    outline: 'none'
                                 }}
                                 onMouseOver={(e) => {
                                     e.currentTarget.style.background = '#f5f5f5';
