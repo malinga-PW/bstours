@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import NiceSelect from './NiceSelect';
 import MobileMenu from './MobileMenu';
 import LoginForm from './LoginForm';
+import LanguageSwitcher from './LanguageSwitcher';
 
 function HeaderOne() {
     const languageOptions = [
@@ -54,6 +55,7 @@ function HeaderOne() {
                                 <div className="header-right">
                                     <div className="currency-menu">
                                         <div id="google_translate_element"></div>
+                                        <LanguageSwitcher />
                                     </div>
 
                                     <div className="header-links">
