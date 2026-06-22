@@ -257,6 +257,7 @@
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
+  <div id="google_translate_element"></div>
 
   <script>
     (function() {
@@ -312,6 +313,12 @@
   </script>
   <style>
     #google_translate_element {
+      display: none !important;
+    }
+    body {
+      top: 0 !important;
+    }
+    .skiptranslate iframe {
       display: none !important;
     }
   </style>
