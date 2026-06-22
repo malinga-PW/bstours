@@ -67,6 +67,8 @@
     /* Color Reorganization */
     .header-top {
       background-color: #ffffff !important;
+      padding-top: 2px !important;
+      padding-bottom: 2px !important;
     }
     .header-top .header-links li,
     .header-top .header-links li a,
@@ -75,18 +77,52 @@
     .header-top button {
       color: #005274 !important;
     }
-    .menu-area {
-      background-color: #f8f9fa !important;
+    .header-top .header-links li {
+      padding-top: 2px !important;
+      padding-bottom: 2px !important;
     }
+
+    /* Orange logo background to White */
+    .logo-bg {
+      background-color: #ffffff !important;
+    }
+
+    /* White Menu Area to Blue */
+    .menu-area {
+      background-color: #005274 !important;
+    }
+    
+    /* Menu Text to White, and Pill shape on hover/active */
     .main-menu > ul > li > a {
       color: #005274 !important;
-    }
-    .main-menu > ul > li > a:hover {
-      color: var(--theme-color) !important;
-    }
-    .sticky-wrapper.sticky .menu-area {
       background-color: #ffffff !important;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      padding: 10px 20px !important;
+      margin: 10px 5px !important;
+      border-radius: 50px !important;
+      display: inline-block;
+      line-height: 1;
+      font-weight: 700;
+    }
+    .main-menu > ul > li > a:hover,
+    .main-menu > ul > li > a.active {
+      color: #ffffff !important;
+      background-color: var(--theme-color) !important;
+    }
+
+    .sticky-wrapper.sticky .menu-area {
+      background-color: #005274 !important;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+    
+    .header-button .th-btn {
+      background-color: #ffffff !important;
+      color: #005274 !important;
+      border: 1px solid #ffffff !important;
+    }
+    .header-button .th-btn:hover {
+      background-color: var(--theme-color) !important;
+      color: #ffffff !important;
+      border-color: var(--theme-color) !important;
     }
     
     body {
