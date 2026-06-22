@@ -97,222 +97,34 @@ function HeaderOne() {
                                 <div className="col-auto me-xl-auto">
                                     <nav className="main-menu d-none d-xl-inline-block">
                                         <ul>
-                                            <li className="menu-item-has-children mega-menu-wrap">
-                                                <Link className="active" to="/">
-                                                    මුල් පිටුව
-                                                </Link>
-                                                <ul className="mega-menu mega-menu-content">
-                                                    <li>
-                                                        <div className="container">
-                                                            <div className="row gy-4">
-                                                                <div className="col-lg-3">
-                                                                    <div className="mega-menu-box">
-                                                                        <div className="mega-menu-img">
-                                                                            <img
-                                                                                src="/assets/img/pages/home-travel.jpg"
-                                                                                alt="Home One"
-                                                                            />
-                                                                            <div className="btn-wrap">
-                                                                                <Link
-
-                                                                                    to="/"
-                                                                                    className="th-btn"
-                                                                                >
-                                                                                    View Demo
-                                                                                </Link>
-                                                                            </div>
-                                                                        </div>
-                                                                        <h3 className="mega-menu-title">
-                                                                            <Link to="/">
-                                                                                <span>01.</span>Home Travel
-                                                                            </Link>
-                                                                        </h3>
-                                                                    </div>
-                                                                </div>
-                                                                <div className="col-lg-3">
-                                                                    <div className="mega-menu-box">
-                                                                        <div className="mega-menu-img">
-                                                                            <img
-                                                                                src="/assets/img/pages/home-tour.jpg"
-                                                                                alt="Home Two"
-                                                                            />
-                                                                            <div className="btn-wrap">
-                                                                                <Link
-                                                                                    to="/home-tour"
-                                                                                    className="th-btn "
-                                                                                >
-                                                                                    View Demo
-                                                                                </Link>
-                                                                            </div>
-                                                                        </div>
-                                                                        <h3 className="mega-menu-title">
-                                                                            <Link to="/home-tour">
-                                                                                <span>02.</span>Home Tour
-                                                                            </Link>
-                                                                        </h3>
-                                                                    </div>
-                                                                </div>
-                                                                <div className="col-lg-3">
-                                                                    <div className="mega-menu-box">
-                                                                        <div className="mega-menu-img">
-                                                                            <img
-                                                                                src="/assets/img/pages/home-agency.jpg"
-                                                                                alt="Home Three"
-                                                                            />
-                                                                            <div className="btn-wrap">
-                                                                                <Link
-
-                                                                                    to="/home-agency"
-                                                                                    className="th-btn "
-                                                                                >
-                                                                                    View Demo
-                                                                                </Link>
-                                                                            </div>
-                                                                        </div>
-                                                                        <h3 className="mega-menu-title">
-                                                                            <Link to="/home-agency">
-                                                                                <span>03.</span>Home Agency
-                                                                            </Link>
-                                                                        </h3>
-                                                                    </div>
-                                                                </div>
-                                                                <div className="col-lg-3">
-                                                                    <div className="mega-menu-box">
-                                                                        <div className="mega-menu-img">
-                                                                            <img
-                                                                                src="/assets/img/pages/home-yacht.jpg"
-                                                                                alt="Home Four"
-                                                                            />
-                                                                            <div className="btn-wrap">
-                                                                                <Link
-
-                                                                                    to="/home-yacht"
-                                                                                    className="th-btn "
-                                                                                >
-                                                                                    View Demo
-                                                                                </Link>
-                                                                            </div>
-                                                                        </div>
-                                                                        <h3 className="mega-menu-title">
-                                                                            <Link to="/home-yacht">
-                                                                                <span>04.</span>Home Yacht
-                                                                            </Link>
-                                                                        </h3>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                </ul>
+                                            <li>
+                                                <Link to="/">මුල් පිටුව</Link>
                                             </li>
                                             <li>
                                                 <Link to="/about">අප ගැන</Link>
                                             </li>
                                             <li className="menu-item-has-children">
-                                                <Link to="#">ගමනාන්ත</Link>
+                                                <Link to="#">චාරිකා සහ සේවා</Link>
                                                 <ul className="sub-menu">
                                                     <li>
-                                                        <Link to="/destination">Destination</Link>
+                                                        <Link to="/tour">චාරිකා පැකේජ</Link>
                                                     </li>
                                                     <li>
-                                                        <Link to="/destination/1">
-                                                            Destination Details
-                                                        </Link>
+                                                        <Link to="/destination">ගමනාන්ත</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link to="/service">සේවාවන්</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link to="/activities">ක්‍රියාකාරකම්</Link>
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li className="menu-item-has-children">
-                                                <Link to="#">සේවාවන්</Link>
-                                                <ul className="sub-menu">
-                                                    <li>
-                                                        <Link to="/service">Services</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/service/1">Service Details</Link>
-                                                    </li>
-                                                </ul>
+                                            <li>
+                                                <Link to="/gallery">ඡායාරූප</Link>
                                             </li>
-                                            <li className="menu-item-has-children">
-                                                <Link to="#">ක්‍රියාකාරකම්</Link>
-                                                <ul className="sub-menu">
-                                                    <li>
-                                                        <Link to="/activities">activities</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/activities-details">activities Details</Link>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li className="menu-item-has-children">
-                                                <Link to="#">පිටු</Link>
-                                                <ul className="sub-menu">
-                                                    <li className="menu-item-has-children">
-                                                        <Link to="#">Shop</Link>
-                                                        <ul className="sub-menu">
-                                                            <li>
-                                                                <Link to="/shop">Shop</Link>
-                                                            </li>
-                                                            <li>
-                                                                <Link to="/shop/1">Shop Details</Link>
-                                                            </li>
-                                                            <li>
-                                                                <Link to="/cart">Cart Page</Link>
-                                                            </li>
-                                                            <li>
-                                                                <Link to="/checkout">Checkout</Link>
-                                                            </li>
-                                                            <li>
-                                                                <Link to="/wishlist">Wishlist</Link>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/gallery">Gallery</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/tour">Our Tour</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/tour-details">Tour Details</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/resort">Resort page</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/resort/1">Resort Details</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/tour-details">Tour Details</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/tour-guide">Tour Guider</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/tour-guide/1">
-                                                            Tour Guider Details
-                                                        </Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/faq">Faq Page</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/price">Price Package</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/error">Error Page</Link>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li className="menu-item-has-children">
-                                                <Link to="#">ලිපි</Link>
-                                                <ul className="sub-menu">
-                                                    <li>
-                                                        <Link to="/blog">Blog</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/blog/1">Blog Details</Link>
-                                                    </li>
-                                                </ul>
+                                            <li>
+                                                <Link to="/blog">ලිපි</Link>
                                             </li>
                                             <li>
                                                 <Link to="/contact">අප හා සම්බන්ධ වන්න</Link>
