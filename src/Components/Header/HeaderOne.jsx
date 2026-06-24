@@ -104,7 +104,7 @@ function HeaderOne() {
                                                 <Link to="/about">අප ගැන</Link>
                                             </li>
                                             <li className="menu-item-has-children">
-                                                <Link to="#">චාරිකා සහ සේවා</Link>
+                                                <Link to="/tour">චාරිකා සහ සේවා</Link>
                                                 <ul className="sub-menu">
                                                     <li>
                                                         <Link to="/tour">චාරිකා පැකේජ</Link>
